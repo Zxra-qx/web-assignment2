@@ -1,3 +1,15 @@
+/*
+ * File: StudentCard.tsx
+ * Author: Zara Qadri
+ * Date: October 30, 2026
+ *
+ * This component displays one student's full name and grade.
+ * It receives a student object and an onRemove callback as props.
+ * Local state controls whether the student's details are visible.
+ * The details show the average and an Honour roll badge for averages of 80 or more.
+ * The Remove button sends the student's ID to the parent callback.
+ */
+
 "use client";
 
 import { useState } from "react";
